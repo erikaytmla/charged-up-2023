@@ -28,7 +28,7 @@ public class Robot extends TimedRobot {
   }
 
   @Override
-  public void () {
+  public void teleopPeriodic() {
     // Drive with arcade drive.
     // That means that the Y axis drives forward
     // and backward, and the X turns left and right.
