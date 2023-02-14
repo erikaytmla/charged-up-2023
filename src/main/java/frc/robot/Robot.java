@@ -16,6 +16,9 @@ import edu.wpi.first.wpilibj.motorcontrol.Spark;
 public class Robot extends TimedRobot {
   private final Spark m_leftMotor = new Spark(0);
   private final Spark m_rightMotor = new Spark(1);
+  private final Spark m_rightMotor2 = new Spark(2);
+  private final Spark m_leftMotor2 = new Spark(3);
+
   private final DifferentialDrive m_robotDrive = new DifferentialDrive(m_leftMotor, m_rightMotor);
   private final Joystick m_stick = new Joystick(0);
 
